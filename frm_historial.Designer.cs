@@ -33,14 +33,15 @@
             this.dgvHistorial.AutoSizeColumnsMode = System.Windows.Forms.DataGridViewAutoSizeColumnsMode.Fill;
             this.dgvHistorial.BackgroundColor = System.Drawing.Color.WhiteSmoke;
             this.dgvHistorial.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.dgvHistorial.Location = new System.Drawing.Point(20, 60);
+            this.dgvHistorial.Location = new System.Drawing.Point(15, 49);
+            this.dgvHistorial.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.dgvHistorial.Name = "dgvHistorial";
             this.dgvHistorial.ReadOnly = true;
             this.dgvHistorial.RowHeadersVisible = false;
             this.dgvHistorial.RowHeadersWidth = 51;
             this.dgvHistorial.RowTemplate.Height = 28;
             this.dgvHistorial.SelectionMode = System.Windows.Forms.DataGridViewSelectionMode.FullRowSelect;
-            this.dgvHistorial.Size = new System.Drawing.Size(720, 320);
+            this.dgvHistorial.Size = new System.Drawing.Size(540, 260);
             this.dgvHistorial.TabIndex = 0;
             this.dgvHistorial.CellContentClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dgvHistorial_CellContentClick);
             // 
@@ -49,22 +50,24 @@
             this.lblMensaje.AutoSize = true;
             this.lblMensaje.Font = new System.Drawing.Font("Segoe UI", 10F, System.Drawing.FontStyle.Bold);
             this.lblMensaje.ForeColor = System.Drawing.Color.Gray;
-            this.lblMensaje.Location = new System.Drawing.Point(280, 200);
+            this.lblMensaje.Location = new System.Drawing.Point(210, 162);
+            this.lblMensaje.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.lblMensaje.Name = "lblMensaje";
-            this.lblMensaje.Size = new System.Drawing.Size(206, 23);
+            this.lblMensaje.Size = new System.Drawing.Size(175, 19);
             this.lblMensaje.TabIndex = 1;
             this.lblMensaje.Text = "No hay historial cargado";
             this.lblMensaje.Visible = false;
             // 
             // btnCerrar
             // 
-            this.btnCerrar.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(52)))), ((int)(((byte)(152)))), ((int)(((byte)(219)))));
+            this.btnCerrar.BackColor = System.Drawing.Color.Red;
             this.btnCerrar.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnCerrar.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Bold);
             this.btnCerrar.ForeColor = System.Drawing.Color.White;
-            this.btnCerrar.Location = new System.Drawing.Point(320, 400);
+            this.btnCerrar.Location = new System.Drawing.Point(240, 325);
+            this.btnCerrar.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.btnCerrar.Name = "btnCerrar";
-            this.btnCerrar.Size = new System.Drawing.Size(150, 40);
+            this.btnCerrar.Size = new System.Drawing.Size(112, 32);
             this.btnCerrar.TabIndex = 2;
             this.btnCerrar.Text = "Volver al menú";
             this.btnCerrar.UseVisualStyleBackColor = false;
@@ -72,14 +75,15 @@
             // 
             // frm_historial
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.White;
-            this.ClientSize = new System.Drawing.Size(760, 470);
+            this.ClientSize = new System.Drawing.Size(570, 382);
             this.Controls.Add(this.btnCerrar);
             this.Controls.Add(this.lblMensaje);
             this.Controls.Add(this.dgvHistorial);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle;
+            this.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.MaximizeBox = false;
             this.Name = "frm_historial";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;

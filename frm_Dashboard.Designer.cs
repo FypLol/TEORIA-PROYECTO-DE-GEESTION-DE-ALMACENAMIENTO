@@ -56,7 +56,7 @@
             // 
             // btn_VRegistrar
             // 
-            this.btn_VRegistrar.BackColor = System.Drawing.Color.CornflowerBlue;
+            this.btn_VRegistrar.BackColor = System.Drawing.Color.Black;
             this.btn_VRegistrar.FlatAppearance.BorderSize = 0;
             this.btn_VRegistrar.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btn_VRegistrar.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
@@ -71,7 +71,7 @@
             // 
             // btn_entregarPaquete
             // 
-            this.btn_entregarPaquete.BackColor = System.Drawing.Color.Goldenrod;
+            this.btn_entregarPaquete.BackColor = System.Drawing.Color.Black;
             this.btn_entregarPaquete.FlatAppearance.BorderSize = 0;
             this.btn_entregarPaquete.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btn_entregarPaquete.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
@@ -86,7 +86,7 @@
             // 
             // btn_verPaquetes
             // 
-            this.btn_verPaquetes.BackColor = System.Drawing.Color.ForestGreen;
+            this.btn_verPaquetes.BackColor = System.Drawing.Color.Black;
             this.btn_verPaquetes.FlatAppearance.BorderSize = 0;
             this.btn_verPaquetes.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btn_verPaquetes.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
@@ -101,7 +101,7 @@
             // 
             // btn_historiaPaquetes
             // 
-            this.btn_historiaPaquetes.BackColor = System.Drawing.SystemColors.MenuHighlight;
+            this.btn_historiaPaquetes.BackColor = System.Drawing.Color.Black;
             this.btn_historiaPaquetes.FlatAppearance.BorderSize = 0;
             this.btn_historiaPaquetes.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btn_historiaPaquetes.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
@@ -191,7 +191,7 @@
             // label6
             // 
             this.label6.AutoSize = true;
-            this.label6.BackColor = System.Drawing.Color.Transparent;
+            this.label6.BackColor = System.Drawing.Color.White;
             this.label6.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label6.Location = new System.Drawing.Point(505, 287);
             this.label6.Name = "label6";
@@ -212,14 +212,17 @@
             // 
             // btn_cerrarSesion
             // 
+            this.btn_cerrarSesion.BackColor = System.Drawing.Color.Red;
             this.btn_cerrarSesion.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
+            this.btn_cerrarSesion.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btn_cerrarSesion.ForeColor = System.Drawing.SystemColors.Window;
             this.btn_cerrarSesion.Location = new System.Drawing.Point(9, 10);
             this.btn_cerrarSesion.Margin = new System.Windows.Forms.Padding(2);
             this.btn_cerrarSesion.Name = "btn_cerrarSesion";
-            this.btn_cerrarSesion.Size = new System.Drawing.Size(122, 19);
+            this.btn_cerrarSesion.Size = new System.Drawing.Size(134, 29);
             this.btn_cerrarSesion.TabIndex = 17;
             this.btn_cerrarSesion.Text = "Cerrar Sesión";
-            this.btn_cerrarSesion.UseVisualStyleBackColor = true;
+            this.btn_cerrarSesion.UseVisualStyleBackColor = false;
             this.btn_cerrarSesion.Click += new System.EventHandler(this.btn_cerrarSesion_Click);
             // 
             // lbl_registraPaquetes
@@ -248,7 +251,7 @@
             // label4
             // 
             this.label4.AutoSize = true;
-            this.label4.BackColor = System.Drawing.Color.Transparent;
+            this.label4.BackColor = System.Drawing.Color.White;
             this.label4.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.label4.Font = new System.Drawing.Font("Microsoft YaHei UI", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label4.Location = new System.Drawing.Point(440, 237);
@@ -289,8 +292,8 @@
             this.Controls.Add(this.btn_VRegistrar);
             this.Controls.Add(this.pictureBox1);
             this.Controls.Add(this.pictureBox2);
-            this.Controls.Add(this.pictureBox4);
             this.Controls.Add(this.pictureBox3);
+            this.Controls.Add(this.pictureBox4);
             this.Name = "frm_Dashboard";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Dashboard";
