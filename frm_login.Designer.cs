@@ -123,7 +123,7 @@
             // 
             // panel1
             // 
-            this.panel1.BackColor = System.Drawing.Color.Navy;
+            this.panel1.BackColor = System.Drawing.Color.Black;
             this.panel1.Controls.Add(this.label4);
             this.panel1.Controls.Add(this.btn_registrarUsuario);
             this.panel1.Controls.Add(this.btn_iniciarsesion);
