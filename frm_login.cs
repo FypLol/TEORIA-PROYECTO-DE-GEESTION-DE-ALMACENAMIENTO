@@ -61,7 +61,7 @@ namespace SistAlmacenamientoProfeJheyson
                                             MessageBoxIcon.Information);
 
                             this.Hide();
-                            frm_panelAdmin panel = new frm_panelAdmin();
+                            frm_Dashboard panel = new frm_Dashboard();
                             panel.ShowDialog(); 
                             this.Show();
                         }

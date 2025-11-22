@@ -1,6 +1,6 @@
 ﻿namespace SistAlmacenamientoProfeJheyson
 {
-    partial class frm_panelAdmin
+    partial class frm_Dashboard
     {
         /// <summary>
         /// Variable del diseñador necesaria.
@@ -28,7 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
-            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(frm_panelAdmin));
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(frm_Dashboard));
             this.btn_VRegistrar = new System.Windows.Forms.Button();
             this.btn_entregarPaquete = new System.Windows.Forms.Button();
             this.btn_verPaquetes = new System.Windows.Forms.Button();

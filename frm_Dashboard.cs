@@ -11,14 +11,14 @@ using System.Windows.Forms;
 
 namespace SistAlmacenamientoProfeJheyson
 {
-    public partial class frm_panelAdmin : Form
+    public partial class frm_Dashboard : Form
 {
     
     private PilaHistorial pilaHistorial = new PilaHistorial(); 
     private ColaPaquetes colaPaquetes = new ColaPaquetes();    
     private ListaHistorial listaHistorial = new ListaHistorial(); 
 
-    public frm_panelAdmin()
+    public frm_Dashboard()
     {
         InitializeComponent();
     }
