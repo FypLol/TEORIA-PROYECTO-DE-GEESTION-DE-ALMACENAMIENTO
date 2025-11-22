@@ -90,12 +90,12 @@
             // 
             // btnRegistrarP
             // 
-            this.btnRegistrarP.BackColor = System.Drawing.SystemColors.Window;
+            this.btnRegistrarP.BackColor = System.Drawing.SystemColors.WindowText;
             this.btnRegistrarP.FlatAppearance.BorderColor = System.Drawing.Color.White;
             this.btnRegistrarP.FlatAppearance.BorderSize = 0;
             this.btnRegistrarP.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
-            this.btnRegistrarP.Font = new System.Drawing.Font("Microsoft Sans Serif", 11F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnRegistrarP.ForeColor = System.Drawing.Color.Black;
+            this.btnRegistrarP.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnRegistrarP.ForeColor = System.Drawing.Color.White;
             this.btnRegistrarP.Location = new System.Drawing.Point(159, 184);
             this.btnRegistrarP.Margin = new System.Windows.Forms.Padding(0);
             this.btnRegistrarP.Name = "btnRegistrarP";
@@ -107,7 +107,7 @@
             // 
             // dgvRegistrarPaquetes
             // 
-            this.dgvRegistrarPaquetes.BackgroundColor = System.Drawing.Color.AliceBlue;
+            this.dgvRegistrarPaquetes.BackgroundColor = System.Drawing.Color.White;
             this.dgvRegistrarPaquetes.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             this.dgvRegistrarPaquetes.GridColor = System.Drawing.SystemColors.ButtonFace;
             this.dgvRegistrarPaquetes.Location = new System.Drawing.Point(75, 250);
@@ -209,7 +209,7 @@
             // 
             // btnVolver
             // 
-            this.btnVolver.BackColor = System.Drawing.Color.Black;
+            this.btnVolver.BackColor = System.Drawing.Color.Red;
             this.btnVolver.FlatAppearance.BorderSize = 0;
             this.btnVolver.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnVolver.Font = new System.Drawing.Font("Microsoft Sans Serif", 11F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
@@ -219,7 +219,7 @@
             this.btnVolver.Name = "btnVolver";
             this.btnVolver.Size = new System.Drawing.Size(213, 45);
             this.btnVolver.TabIndex = 18;
-            this.btnVolver.Text = "🔙 Volver al menú principal";
+            this.btnVolver.Text = "Volver al menú principal";
             this.btnVolver.UseVisualStyleBackColor = false;
             this.btnVolver.Click += new System.EventHandler(this.btnVolver_Click);
             // 
