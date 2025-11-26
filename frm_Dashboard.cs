@@ -30,7 +30,6 @@ namespace SistAlmacenamientoProfeJheyson
             this.Text = "Panel de Administración - Sistema de Almacenamiento";
     }
 
-    
     private void btn_VRegistrar_Click(object sender, EventArgs e)
     {
         var frm = new frm_registrarpaquete();
