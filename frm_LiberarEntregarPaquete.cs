@@ -16,6 +16,11 @@ namespace SistAlmacenamientoProfeJheyson
             cola = colaCompartida;
             pila = pilaCompartida;
             lista = listaCompartida;
+
+            this.TopLevel = false;
+            this.FormBorderStyle = FormBorderStyle.None;
+            this.Dock = DockStyle.Fill;
+            this.Load += frm_LiberarEntregarPaquete_Load;
         }
 
         

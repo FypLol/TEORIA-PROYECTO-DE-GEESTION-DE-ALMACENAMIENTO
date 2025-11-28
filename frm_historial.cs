@@ -11,6 +11,12 @@ namespace SistAlmacenamientoProfeJheyson
         {
             InitializeComponent();
             lista = listaHistorial;
+
+            this.TopLevel = false; // NECESARIO para panel contenedor
+            this.FormBorderStyle = FormBorderStyle.None; // Quita bordes
+            this.Dock = DockStyle.Fill; // Ajusta al panel
+
+            this.Load += frm_historial_Load;
         }
 
         private void frm_historial_Load(object sender, EventArgs e)

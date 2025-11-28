@@ -51,7 +51,7 @@
             // 
             // btnActualizar
             // 
-            this.btnActualizar.BackColor = System.Drawing.Color.Black;
+            this.btnActualizar.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(64)))));
             this.btnActualizar.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnActualizar.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Bold);
             this.btnActualizar.ForeColor = System.Drawing.Color.White;
@@ -70,7 +70,7 @@
             this.lblMensaje.ForeColor = System.Drawing.Color.Gray;
             this.lblMensaje.Location = new System.Drawing.Point(258, 160);
             this.lblMensaje.Name = "lblMensaje";
-            this.lblMensaje.Size = new System.Drawing.Size(211, 19);
+            this.lblMensaje.Size = new System.Drawing.Size(245, 23);
             this.lblMensaje.TabIndex = 3;
             this.lblMensaje.Text = "No hay paquetes pendientes 📭";
             this.lblMensaje.Visible = false;

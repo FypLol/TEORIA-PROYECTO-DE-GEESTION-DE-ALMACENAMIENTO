@@ -14,7 +14,7 @@ namespace SistAlmacenamientoProfeJheyson
             cola = colaPaquetes;
         }
 
-        private void frm_verPaquetes_Load(object sender, EventArgs e)
+        public void frm_verPaquetes_Load(object sender, EventArgs e)
         {
             this.Text = "Ver Paquetes Pendientes - Sistema de Almacenamiento";
             ConfigurarDataGridView();
