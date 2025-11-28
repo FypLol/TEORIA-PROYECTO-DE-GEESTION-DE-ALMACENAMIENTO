@@ -45,15 +45,17 @@
             // 
             this.lblTitulo.AutoSize = true;
             this.lblTitulo.Font = new System.Drawing.Font("Segoe UI", 14F, System.Drawing.FontStyle.Bold);
+            this.lblTitulo.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(64)))));
             this.lblTitulo.Location = new System.Drawing.Point(118, 25);
             this.lblTitulo.Name = "lblTitulo";
-            this.lblTitulo.Size = new System.Drawing.Size(230, 25);
+            this.lblTitulo.Size = new System.Drawing.Size(294, 32);
             this.lblTitulo.TabIndex = 0;
             this.lblTitulo.Text = "Registrar Nuevo Usuario";
             // 
             // lblUsuario
             // 
             this.lblUsuario.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblUsuario.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(64)))));
             this.lblUsuario.Location = new System.Drawing.Point(91, 70);
             this.lblUsuario.Name = "lblUsuario";
             this.lblUsuario.Size = new System.Drawing.Size(100, 23);
@@ -63,9 +65,10 @@
             // lblContrasena
             // 
             this.lblContrasena.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblContrasena.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(64)))));
             this.lblContrasena.Location = new System.Drawing.Point(91, 142);
             this.lblContrasena.Name = "lblContrasena";
-            this.lblContrasena.Size = new System.Drawing.Size(128, 23);
+            this.lblContrasena.Size = new System.Drawing.Size(155, 28);
             this.lblContrasena.TabIndex = 2;
             this.lblContrasena.Text = "Contraseña:";
             // 
@@ -73,9 +76,10 @@
             // 
             this.lblConfirmar.BackColor = System.Drawing.Color.Transparent;
             this.lblConfirmar.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblConfirmar.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(64)))));
             this.lblConfirmar.Location = new System.Drawing.Point(92, 210);
             this.lblConfirmar.Name = "lblConfirmar";
-            this.lblConfirmar.Size = new System.Drawing.Size(100, 23);
+            this.lblConfirmar.Size = new System.Drawing.Size(123, 32);
             this.lblConfirmar.TabIndex = 3;
             this.lblConfirmar.Text = "Confirmar contraseña:";
             // 
@@ -83,9 +87,10 @@
             // 
             this.txtUsuario.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.txtUsuario.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtUsuario.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(64)))));
             this.txtUsuario.Location = new System.Drawing.Point(95, 98);
             this.txtUsuario.Name = "txtUsuario";
-            this.txtUsuario.Size = new System.Drawing.Size(264, 22);
+            this.txtUsuario.Size = new System.Drawing.Size(264, 27);
             this.txtUsuario.TabIndex = 4;
             this.txtUsuario.TextChanged += new System.EventHandler(this.txtUsuario_TextChanged);
             // 
@@ -93,10 +98,11 @@
             // 
             this.txtContrasena.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.txtContrasena.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtContrasena.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(64)))));
             this.txtContrasena.Location = new System.Drawing.Point(92, 173);
             this.txtContrasena.Name = "txtContrasena";
             this.txtContrasena.PasswordChar = '*';
-            this.txtContrasena.Size = new System.Drawing.Size(264, 22);
+            this.txtContrasena.Size = new System.Drawing.Size(264, 27);
             this.txtContrasena.TabIndex = 5;
             this.txtContrasena.TextChanged += new System.EventHandler(this.txtContrasena_TextChanged);
             // 
@@ -104,15 +110,16 @@
             // 
             this.txtConfirmar.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.txtConfirmar.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtConfirmar.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(64)))));
             this.txtConfirmar.Location = new System.Drawing.Point(93, 245);
             this.txtConfirmar.Name = "txtConfirmar";
             this.txtConfirmar.PasswordChar = '*';
-            this.txtConfirmar.Size = new System.Drawing.Size(267, 24);
+            this.txtConfirmar.Size = new System.Drawing.Size(267, 30);
             this.txtConfirmar.TabIndex = 6;
             // 
             // btnRegistrar
             // 
-            this.btnRegistrar.BackColor = System.Drawing.Color.Black;
+            this.btnRegistrar.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(64)))));
             this.btnRegistrar.FlatAppearance.BorderSize = 0;
             this.btnRegistrar.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnRegistrar.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
@@ -142,7 +149,8 @@
             // 
             // panel3
             // 
-            this.panel3.BackColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.panel3.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(64)))));
+            this.panel3.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(64)))));
             this.panel3.Location = new System.Drawing.Point(92, 198);
             this.panel3.Name = "panel3";
             this.panel3.Size = new System.Drawing.Size(264, 3);
@@ -150,7 +158,8 @@
             // 
             // panel1
             // 
-            this.panel1.BackColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.panel1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(64)))));
+            this.panel1.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(64)))));
             this.panel1.Location = new System.Drawing.Point(95, 273);
             this.panel1.Name = "panel1";
             this.panel1.Size = new System.Drawing.Size(264, 3);
@@ -158,7 +167,8 @@
             // 
             // panel2
             // 
-            this.panel2.BackColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.panel2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(64)))));
+            this.panel2.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(64)))));
             this.panel2.Location = new System.Drawing.Point(95, 123);
             this.panel2.Name = "panel2";
             this.panel2.Size = new System.Drawing.Size(264, 3);

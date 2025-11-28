@@ -111,7 +111,7 @@ namespace SistAlmacenamientoProfeJheyson
         {
             if (cola == null || pila == null)
             {
-                MessageBox.Show("⚠️ Las estructuras no están inicializadas correctamente.",
+                MessageBox.Show(" Las estructuras no están inicializadas correctamente.",
                                 "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
                 return;
             }
@@ -124,7 +124,7 @@ namespace SistAlmacenamientoProfeJheyson
                 pila.Apilar(paquete);
                 lista.InsertarFinal(paquete.NombreDestinatario, paquete.Telefono, paquete.Tamaño, paquete.DNI, paquete.FechaIngreso);
 
-                MessageBox.Show($"✅ Paquete de {paquete.NombreDestinatario} entregado correctamente.",
+                MessageBox.Show($"Paquete de {paquete.NombreDestinatario} entregado correctamente.",
                                 "Entrega Exitosa", MessageBoxButtons.OK, MessageBoxIcon.Information);
 
                
@@ -132,7 +132,7 @@ namespace SistAlmacenamientoProfeJheyson
             }
             else
             {
-                MessageBox.Show("⚠️ No hay paquetes pendientes.",
+                MessageBox.Show(" No hay paquetes pendientes.",
                                 "Cola Vacía", MessageBoxButtons.OK, MessageBoxIcon.Warning);
             }
         }

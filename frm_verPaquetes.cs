@@ -68,20 +68,16 @@ namespace SistAlmacenamientoProfeJheyson
         private void btnVolver_Click(object sender, EventArgs e)
         {
             
-            Form menu = Application.OpenForms["frm_panelAdmin"];
-
-            if (menu != null)
-            {
-                
-                menu.Show();
-            }
-
             
-            this.Close();
         }
 
         
         private void dgvVerPaquetes_CellContentClick(object sender, DataGridViewCellEventArgs e) { }
         private void lblMensaje_Click(object sender, EventArgs e) { }
+
+        private void dgvVerPaquetes_CellContentClick_1(object sender, DataGridViewCellEventArgs e)
+        {
+
+        }
     }
 }

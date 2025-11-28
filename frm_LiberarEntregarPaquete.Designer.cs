@@ -42,7 +42,7 @@
             this.dgvPaquetes.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.dgvPaquetes.Name = "dgvPaquetes";
             this.dgvPaquetes.RowHeadersWidth = 62;
-            this.dgvPaquetes.Size = new System.Drawing.Size(837, 266);
+            this.dgvPaquetes.Size = new System.Drawing.Size(1185, 266);
             this.dgvPaquetes.TabIndex = 0;
             // 
             // lblMsgVacio
@@ -130,7 +130,7 @@
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.SystemColors.Window;
-            this.ClientSize = new System.Drawing.Size(865, 393);
+            this.ClientSize = new System.Drawing.Size(1213, 569);
             this.Controls.Add(this.BtnCerrar);
             this.Controls.Add(this.BtnRegistrar);
             this.Controls.Add(this.BtnVerTodos);

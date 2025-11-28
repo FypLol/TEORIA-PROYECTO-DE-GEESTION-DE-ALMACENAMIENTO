@@ -24,7 +24,7 @@ namespace SistAlmacenamientoProfeJheyson
             BDHelper.Inicializar(); 
         }
 
-        // Botón de inicio de sesión
+      
         private void btn_iniciarsesion_Click(object sender, EventArgs e)
         {
             string usuario = txtUsuario.Text.Trim();
@@ -61,7 +61,7 @@ namespace SistAlmacenamientoProfeJheyson
                                             MessageBoxIcon.Information);
 
                             this.Hide();
-                            frm_Dashboard panel = new frm_Dashboard();
+                            frm_Dashboard panel = new frm_Dashboard(usuario);
                             panel.ShowDialog(); 
                             this.Show();
                         }

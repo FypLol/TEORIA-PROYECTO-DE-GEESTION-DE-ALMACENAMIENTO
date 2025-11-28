@@ -13,16 +13,19 @@ namespace SistAlmacenamientoProfeJheyson
 {
     public partial class frm_Dashboard : Form
 {
-    
-    private PilaHistorial pilaHistorial = new PilaHistorial(); 
+        private string nombreUsuario;
+
+        private PilaHistorial pilaHistorial = new PilaHistorial(); 
     private ColaPaquetes colaPaquetes = new ColaPaquetes();    
     private ListaHistorial listaHistorial = new ListaHistorial(); 
 
-    public frm_Dashboard()
+    public frm_Dashboard(string usuario)
     {
         InitializeComponent();
             this.SetStyle(ControlStyles.ResizeRedraw, true);
             this.DoubleBuffered = true;
+
+            nombreUsuario = usuario;
         }
         private int tolerance = 12;
         private const int WM_NCHITTEST = 132;
@@ -34,7 +37,8 @@ namespace SistAlmacenamientoProfeJheyson
     {
         
             this.Text = "Panel de Administración - Sistema de Almacenamiento";
-    }
+            lbl_bienvenida.Text = $"BIENVENIDO A GESTION APP, {nombreUsuario.ToUpper()}!";
+        }
         protected override void WndProc(ref Message m)
         {
             switch (m.Msg)
@@ -59,7 +63,7 @@ namespace SistAlmacenamientoProfeJheyson
             this.panel_contenedor.Region = region;
             this.Invalidate();
         }
-        //----------------COLOR Y GRIP DE RECTANGULO INFERIOR
+       
         protected override void OnPaint(PaintEventArgs e)
         {
             SolidBrush blueBrush = new SolidBrush(Color.FromArgb(244, 244, 244));
@@ -129,10 +133,10 @@ namespace SistAlmacenamientoProfeJheyson
         {
            
         }
-        //abrir formularios metodo
+       
         private void AbrirFormulario(Form formulario)
         {
-            // Busca si ya existe una instancia del mismo tipo
+           
             Form existente = panel_formularios.Controls
                 .OfType<Form>()
                 .FirstOrDefault(f => f.GetType() == formulario.GetType());
@@ -153,5 +157,14 @@ namespace SistAlmacenamientoProfeJheyson
             }
         }
 
+        private void lbl_bienvenida_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void lbl_menutitu_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }

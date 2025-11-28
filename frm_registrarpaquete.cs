@@ -137,16 +137,7 @@ namespace SistAlmacenamientoProfeJheyson
         private void btnVolver_Click(object sender, EventArgs e)
         {
             
-            Form menu = Application.OpenForms["frm_panelAdmin"];
-
-            if (menu != null)
-            {
-                
-                menu.Show();
-            }
-
-            
-            this.Close();
+           
         }
 
         #region

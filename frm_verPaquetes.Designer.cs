@@ -32,8 +32,9 @@
             this.dgvVerPaquetes.Location = new System.Drawing.Point(20, 20);
             this.dgvVerPaquetes.Name = "dgvVerPaquetes";
             this.dgvVerPaquetes.RowHeadersWidth = 62;
-            this.dgvVerPaquetes.Size = new System.Drawing.Size(760, 350);
+            this.dgvVerPaquetes.Size = new System.Drawing.Size(883, 390);
             this.dgvVerPaquetes.TabIndex = 0;
+            this.dgvVerPaquetes.CellContentClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dgvVerPaquetes_CellContentClick_1);
             // 
             // btnVolver
             // 
@@ -41,7 +42,7 @@
             this.btnVolver.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnVolver.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Bold);
             this.btnVolver.ForeColor = System.Drawing.Color.White;
-            this.btnVolver.Location = new System.Drawing.Point(400, 390);
+            this.btnVolver.Location = new System.Drawing.Point(478, 436);
             this.btnVolver.Name = "btnVolver";
             this.btnVolver.Size = new System.Drawing.Size(150, 40);
             this.btnVolver.TabIndex = 2;
@@ -55,7 +56,7 @@
             this.btnActualizar.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnActualizar.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Bold);
             this.btnActualizar.ForeColor = System.Drawing.Color.White;
-            this.btnActualizar.Location = new System.Drawing.Point(200, 390);
+            this.btnActualizar.Location = new System.Drawing.Point(264, 436);
             this.btnActualizar.Name = "btnActualizar";
             this.btnActualizar.Size = new System.Drawing.Size(150, 40);
             this.btnActualizar.TabIndex = 1;
@@ -68,7 +69,7 @@
             this.lblMensaje.AutoSize = true;
             this.lblMensaje.Font = new System.Drawing.Font("Segoe UI", 10F, System.Drawing.FontStyle.Italic);
             this.lblMensaje.ForeColor = System.Drawing.Color.Gray;
-            this.lblMensaje.Location = new System.Drawing.Point(258, 160);
+            this.lblMensaje.Location = new System.Drawing.Point(327, 195);
             this.lblMensaje.Name = "lblMensaje";
             this.lblMensaje.Size = new System.Drawing.Size(245, 23);
             this.lblMensaje.TabIndex = 3;
@@ -78,7 +79,7 @@
             // frm_verPaquetes
             // 
             this.BackColor = System.Drawing.SystemColors.Window;
-            this.ClientSize = new System.Drawing.Size(800, 450);
+            this.ClientSize = new System.Drawing.Size(1213, 569);
             this.Controls.Add(this.lblMensaje);
             this.Controls.Add(this.btnVolver);
             this.Controls.Add(this.btnActualizar);

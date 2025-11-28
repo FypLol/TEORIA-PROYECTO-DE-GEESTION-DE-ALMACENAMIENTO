@@ -51,7 +51,7 @@ namespace SistAlmacenamientoProfeJheyson
                 {
                     conexion.Open();
 
-                    // Verificar si el usuario ya existe
+                    
                     string checkQuery = "SELECT COUNT(*) FROM usuarios WHERE usuario=@usuario";
                     using (SQLiteCommand checkCmd = new SQLiteCommand(checkQuery, conexion))
                     {
@@ -66,7 +66,7 @@ namespace SistAlmacenamientoProfeJheyson
                         }
                     }
 
-                    // Insertar nuevo usuario
+                  
                     string insertQuery = "INSERT INTO usuarios (usuario, contrasena) VALUES (@usuario, @contrasena)";
                     using (SQLiteCommand cmd = new SQLiteCommand(insertQuery, conexion))
                     {
